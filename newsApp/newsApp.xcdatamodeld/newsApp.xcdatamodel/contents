@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ArticleTable" representedClassName="ArticleTable" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="categoryName" optional="YES" attributeType="String"/>
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="newsDescription" optional="YES" attributeType="String"/>
+        <attribute name="publishedAt" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="urlToImage" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="BookMarkTable" representedClassName="BookMarkTable" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="categoryName" optional="YES" attributeType="String"/>
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="newsDescription" optional="YES" attributeType="String"/>
+        <attribute name="publishedAt" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="urlToImage" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="ArticleTable" positionX="-63" positionY="-18" width="128" height="149"/>
+        <element name="BookMarkTable" positionX="-54" positionY="54" width="128" height="149"/>
+    </elements>
+</model>
